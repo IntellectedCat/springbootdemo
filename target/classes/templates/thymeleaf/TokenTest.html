@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../../js/jquery-3.3.1.js"></script>
+</head>
+<body>
+    <div th:text="${token}"></div>
+    <button onclick="run()">check</button>
+    <div></div>
+</body>
+<script>
+    function run(){
+        $.ajax({
+            url: '/checkToken',
+            type: 'post',
+            dataType: 'json',
+            // beforeSend: function (xhr) {
+            //     xhr.setRequestHeader("token",$('div').eq(0).html());
+            // },
+            headers:{'Content-Type':'application/json;charset=utf8','token':JSON.stringify($('div').eq(0).html())},
+            success:function (data) {
+                $('div').eq(1).html(data.msg);
+            }
+        });
+    }
+
+</script>
+</html>
