@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="top.study.springbootdemo.mapper.StudentMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="top.study.springbootdemo.entity.Student">
+        <id column="stu_id" property="stuId" />
+        <result column="stu_name" property="stuName" />
+        <result column="password" property="password"/>
+        <result column="teac_id" property="teacId"/>
+    </resultMap>
+
+    <resultMap id="AssociationSelect" type="top.study.springbootdemo.entity.Student">
+        <id column="stu_id" property="stuId"/>
+        <result column="stu_name" property="stuName"/>
+        <association property="teacher" javaType="top.study.springbootdemo.entity.Teacher">
+            <id column="teac_id" property="teacId"/>
+            <result column="teac_name" property="teacName"/>
+        </association>
+    </resultMap>
+    
+    <select id="findAllStudent" resultType="top.study.springbootdemo.entity.Student">
+        select * from t_student;
+    </select>
+
+    <select id="findStudentTeacher" resultMap="AssociationSelect" parameterType="java.lang.Integer">
+        select td.stu_id, td.stu_name, td.password, tc.teac_id, tc.teac_name
+        from t_student td
+        left join t_teacher tc on td.teac_id = tc.teac_id
+        where td.teac_id = #{teacId};
+    </select>
+
+    <select id="findStudentTeacherByVO" resultMap="AssociationSelect" parameterType="java.lang.Integer">
+        select td.stu_id, td.stu_name, td.password, tc.teac_id, tc.teac_name
+        from t_student td
+        left join t_teacher tc on td.teac_id = tc.teac_id
+        where td.teac_id = #{teacId};
+    </select>
+
+
+</mapper>
