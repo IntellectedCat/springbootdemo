@@ -5,9 +5,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.jms.annotation.EnableJms;
 
 @SpringBootApplication
-//@MapperScan("top.study.springbootdemo.mapper")
+//@MapperScan("top.study.springbootdemo.mybatisplus.mapper")
 // 开启消息队列
-@EnableJms
+//@EnableJms
 public class SpringbootdemoApplication {
 
     public static void main(String[] args) {

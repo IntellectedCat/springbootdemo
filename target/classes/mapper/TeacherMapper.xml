@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="top.study.springbootdemo.mapper.TeacherMapper">
+<mapper namespace="top.study.springbootdemo.mybatisplus.mapper.TeacherMapper">
 
     <!-- 通用查询映射结果 -->
-    <resultMap id="BaseResultMap" type="top.study.springbootdemo.entity.Teacher">
+    <resultMap id="BaseResultMap" type="top.study.springbootdemo.mybatisplus.entity.Teacher">
         <id column="teac_id" property="teacId" />
         <result column="teac_name" property="teacName" />
     </resultMap>
     
-    <resultMap id="CollectionSelect" type="top.study.springbootdemo.entity.Teacher">
+    <resultMap id="CollectionSelect" type="top.study.springbootdemo.mybatisplus.entity.Teacher">
         <id column="teac_id" property="teacId"/>
         <result column="teac_name" property="teacName"/>
-        <collection property="studentList" ofType="top.study.springbootdemo.entity.Student" javaType="java.util.ArrayList" >
+        <collection property="studentList" ofType="top.study.springbootdemo.mybatisplus.entity.Student" javaType="java.util.ArrayList" >
             <id column="stu_id" property="stuId"/>
             <result column="stu_name" property="stuName"/>
         </collection>

@@ -1,7 +1,7 @@
-package top.study.springbootdemo.controller;
+package top.study.springbootdemo.mybatisplus.controller;
 
 import com.alibaba.fastjson.JSONObject;
-import top.study.springbootdemo.service.StudentService;
+import top.study.springbootdemo.mybatisplus.service.StudentService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;

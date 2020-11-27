@@ -1,11 +1,11 @@
-package top.study.springbootdemo.controller;
+package top.study.springbootdemo.mybatisplus.controller;
 
 
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONArray;
 import com.alibaba.fastjson.JSONObject;
-import top.study.springbootdemo.entity.Teacher;
-import top.study.springbootdemo.service.TeacherService;
+import top.study.springbootdemo.mybatisplus.entity.Teacher;
+import top.study.springbootdemo.mybatisplus.service.TeacherService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;

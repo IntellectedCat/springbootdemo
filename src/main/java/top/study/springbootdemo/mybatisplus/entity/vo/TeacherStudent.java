@@ -1,4 +1,4 @@
-package top.study.springbootdemo.entity.vo;
+package top.study.springbootdemo.mybatisplus.entity.vo;
 
 import lombok.Data;
 

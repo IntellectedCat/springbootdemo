@@ -69,4 +69,12 @@ public class ActiveMQConfig {
         return factory;
     }
 
+    @Bean(name = "topicListener2")
+    public JmsListenerContainerFactory<?> topicJmsListenerContainerFactory2(ConnectionFactory connectionFactory) {
+        SimpleJmsListenerContainerFactory factory = new SimpleJmsListenerContainerFactory();
+        factory.setConnectionFactory(connectionFactory);
+        factory.setPubSubDomain(true);
+        return factory;
+    }
+
 }

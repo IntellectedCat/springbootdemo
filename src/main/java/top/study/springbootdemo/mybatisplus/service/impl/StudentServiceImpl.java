@@ -1,9 +1,9 @@
-package top.study.springbootdemo.service.impl;
+package top.study.springbootdemo.mybatisplus.service.impl;
 
-import top.study.springbootdemo.entity.Student;
-import top.study.springbootdemo.entity.vo.StudentTeacher;
-import top.study.springbootdemo.mapper.StudentMapper;
-import top.study.springbootdemo.service.StudentService;
+import top.study.springbootdemo.mybatisplus.entity.Student;
+import top.study.springbootdemo.mybatisplus.entity.vo.StudentTeacher;
+import top.study.springbootdemo.mybatisplus.mapper.StudentMapper;
+import top.study.springbootdemo.mybatisplus.service.StudentService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

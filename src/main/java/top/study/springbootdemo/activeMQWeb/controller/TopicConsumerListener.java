@@ -10,4 +10,9 @@ public class TopicConsumerListener {
     public void readTopicQueue(String msg) {
         System.out.println("topic接收到：" + msg);
     }
+
+    @JmsListener(destination = "${spring.activemq.topic-name}", containerFactory = "topicListener2")
+    public void readTopicQueue2(String msg) {
+        System.out.println("topic2接收到：" + msg);
+    }
 }

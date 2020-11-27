@@ -1,6 +1,6 @@
-package top.study.springbootdemo.service;
+package top.study.springbootdemo.mybatisplus.service;
 
-import top.study.springbootdemo.entity.Teacher;
+import top.study.springbootdemo.mybatisplus.entity.Teacher;
 import com.baomidou.mybatisplus.extension.service.IService;
 
 import java.util.List;

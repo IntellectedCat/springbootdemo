@@ -1,8 +1,8 @@
-package top.study.springbootdemo.mapper;
+package top.study.springbootdemo.mybatisplus.mapper;
 
-import top.study.springbootdemo.entity.Student;
+import top.study.springbootdemo.mybatisplus.entity.Student;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
-import top.study.springbootdemo.entity.vo.StudentTeacher;
+import top.study.springbootdemo.mybatisplus.entity.vo.StudentTeacher;
 import org.apache.ibatis.annotations.Mapper;
 
 import java.util.List;

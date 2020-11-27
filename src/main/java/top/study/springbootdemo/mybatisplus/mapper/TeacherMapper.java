@@ -1,6 +1,6 @@
-package top.study.springbootdemo.mapper;
+package top.study.springbootdemo.mybatisplus.mapper;
 
-import top.study.springbootdemo.entity.Teacher;
+import top.study.springbootdemo.mybatisplus.entity.Teacher;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import org.apache.ibatis.annotations.Mapper;
 

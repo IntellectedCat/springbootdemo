@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="top.study.springbootdemo.mapper.StudentMapper">
+<mapper namespace="top.study.springbootdemo.mybatisplus.mapper.StudentMapper">
 
     <!-- 通用查询映射结果 -->
-    <resultMap id="BaseResultMap" type="top.study.springbootdemo.entity.Student">
+    <resultMap id="BaseResultMap" type="top.study.springbootdemo.mybatisplus.entity.Student">
         <id column="stu_id" property="stuId" />
         <result column="stu_name" property="stuName" />
         <result column="password" property="password"/>
         <result column="teac_id" property="teacId"/>
     </resultMap>
 
-    <resultMap id="AssociationSelect" type="top.study.springbootdemo.entity.Student">
+    <resultMap id="AssociationSelect" type="top.study.springbootdemo.mybatisplus.entity.Student">
         <id column="stu_id" property="stuId"/>
         <result column="stu_name" property="stuName"/>
-        <association property="teacher" javaType="top.study.springbootdemo.entity.Teacher">
+        <association property="teacher" javaType="top.study.springbootdemo.mybatisplus.entity.Teacher">
             <id column="teac_id" property="teacId"/>
             <result column="teac_name" property="teacName"/>
         </association>
     </resultMap>
     
-    <select id="findAllStudent" resultType="top.study.springbootdemo.entity.Student">
+    <select id="findAllStudent" resultType="top.study.springbootdemo.mybatisplus.entity.Student">
         select * from t_student;
     </select>
 

@@ -1,7 +1,7 @@
-package top.study.springbootdemo.entity.vo;
+package top.study.springbootdemo.mybatisplus.entity.vo;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
-import top.study.springbootdemo.entity.Teacher;
+import top.study.springbootdemo.mybatisplus.entity.Teacher;
 import lombok.Data;
 
 @Data
