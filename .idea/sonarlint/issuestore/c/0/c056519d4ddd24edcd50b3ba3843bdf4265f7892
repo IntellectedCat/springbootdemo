@@ -1,0 +1,10 @@
+
+|
+java:S1488'"aImmediately return this expression instead of assigning it to the temporary variable "jsonArray".(‘ÐÆÔüÿÿÿÿ
+T
+java:S1854&">Remove this useless assignment to local variable "jsonObject".(™Ö…œ
+V	java:S125%"<This block of commented-out lines of code should be removed.(ƒ”Ãçÿÿÿÿÿ
+_
+java:S3252'"DUse static access with "com.alibaba.fastjson.JSON" for "parseArray".(‘ÐÆÔüÿÿÿÿ
+E
+java:S1481&"/Remove this unused "jsonObject" local variable.(™Ö…œ

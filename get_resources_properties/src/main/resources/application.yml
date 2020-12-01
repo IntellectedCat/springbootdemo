@@ -1,0 +1,15 @@
+server:
+  port: 8082
+
+spring:
+  #  freemarker:
+  #    charset: UTF-8
+  #    suffix: .ftl
+  #    template-loader-path: classpath:/templates/
+  ##    关闭缓存，及时刷新，上线生产环境要改为true
+  #    cache: false
+  thymeleaf:
+    prefix: classpath:/templates/
+    suffix: .html
+    mode: HTML5
+    cache: false

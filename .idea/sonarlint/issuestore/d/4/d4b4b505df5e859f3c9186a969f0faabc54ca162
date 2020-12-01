@@ -1,0 +1,5 @@
+
+Ê
+java:S53015"®Secure this "ActiveMQConnectionFactory" by whitelisting the trusted packages using the "setTrustedPackages" method and make sure the "setTrustAllPackages" is not set to true.(ç®Ðêþÿÿÿÿ
+Q	java:S125"<This block of commented-out lines of code should be removed.(Œ¡®é
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÑÿÀªùÿÿÿÿ

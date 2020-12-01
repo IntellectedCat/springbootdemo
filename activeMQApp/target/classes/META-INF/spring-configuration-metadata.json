@@ -1,0 +1,27 @@
+{
+  "groups": [
+    {
+      "name": "com.jjhe.opensource",
+      "type": "top.study.springbootdemo.ResourceJava.Resource",
+      "sourceType": "top.study.springbootdemo.ResourceJava.Resource"
+    }
+  ],
+  "properties": [
+    {
+      "name": "com.jjhe.opensource.language",
+      "type": "java.lang.String",
+      "sourceType": "top.study.springbootdemo.ResourceJava.Resource"
+    },
+    {
+      "name": "com.jjhe.opensource.name",
+      "type": "java.lang.String",
+      "sourceType": "top.study.springbootdemo.ResourceJava.Resource"
+    },
+    {
+      "name": "com.jjhe.opensource.website",
+      "type": "java.lang.String",
+      "sourceType": "top.study.springbootdemo.ResourceJava.Resource"
+    }
+  ],
+  "hints": []
+}
