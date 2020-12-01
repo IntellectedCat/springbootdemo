@@ -4,6 +4,11 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/acivemqweb/pom.xml" />
+        <option value="$PROJECT_DIR$/publish_event_app/pom.xml" />
+        <option value="$PROJECT_DIR$/mybatis_plus/pom.xml" />
+        <option value="$PROJECT_DIR$/activemq_web/pom.xml" />
+        <option value="$PROJECT_DIR$/get_resources_properties/pom.xml" />
       </list>
     </option>
   </component>

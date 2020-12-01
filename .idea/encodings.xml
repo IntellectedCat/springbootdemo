@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/activeMQApp/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/activemq_web/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/get_resources_properties/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mybatis_plus/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/publish_event_app/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
   </component>
 </project>

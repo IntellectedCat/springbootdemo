@@ -1,49 +1,100 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="33283d66-d94e-4698-ad39-7231cdb4a68a" name="Default Changelist" comment="init">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="33283d66-d94e-4698-ad39-7231cdb4a68a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_15.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_activemq_2_3_4_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HELP.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw.cmd" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/springbootdemo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/springbootdemo.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/top/study/springbootdemo/SpringbootdemoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/study/springbootdemo/SpringbootdemoApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/top/study/springbootdemo/activeMQWeb/config/ActiveMQConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/study/springbootdemo/activeMQWeb/config/ActiveMQConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/top/study/springbootdemo/activeMQWeb/controller/TopicConsumerListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/study/springbootdemo/activeMQWeb/controller/TopicConsumerListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/top/study/springbootdemo/config/MybatisPlusConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/study/springbootdemo/mybatisplus/config/MybatisPlusConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/top/study/springbootdemo/controller/StudentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/study/springbootdemo/mybatisplus/controller/StudentController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/top/study/springbootdemo/controller/TeacherController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/study/springbootdemo/mybatisplus/controller/TeacherController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/top/study/springbootdemo/entity/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/study/springbootdemo/mybatisplus/entity/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/top/study/springbootdemo/entity/Teacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/study/springbootdemo/mybatisplus/entity/Teacher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/top/study/springbootdemo/entity/vo/StudentTeacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/study/springbootdemo/mybatisplus/entity/vo/StudentTeacher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/top/study/springbootdemo/entity/vo/TeacherStudent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/study/springbootdemo/mybatisplus/entity/vo/TeacherStudent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/top/study/springbootdemo/mapper/StudentMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/study/springbootdemo/mybatisplus/mapper/StudentMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/top/study/springbootdemo/mapper/TeacherMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/study/springbootdemo/mybatisplus/mapper/TeacherMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/top/study/springbootdemo/service/StudentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/study/springbootdemo/mybatisplus/service/StudentService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/top/study/springbootdemo/service/TeacherService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/study/springbootdemo/mybatisplus/service/TeacherService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/top/study/springbootdemo/service/impl/StudentServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/study/springbootdemo/mybatisplus/service/impl/StudentServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/top/study/springbootdemo/service/impl/TeacherServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/study/springbootdemo/mybatisplus/service/impl/TeacherServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/StudentMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/StudentMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/TeacherMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/TeacherMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mapper/StudentMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/StudentMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mapper/TeacherMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/TeacherMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/top/study/springbootdemo/SpringbootdemoApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/top/study/springbootdemo/SpringbootdemoApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/top/study/springbootdemo/activeMQWeb/config/ActiveMQConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/top/study/springbootdemo/activeMQWeb/config/ActiveMQConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/top/study/springbootdemo/activeMQWeb/controller/TopicConsumerListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/top/study/springbootdemo/activeMQWeb/controller/TopicConsumerListener.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/top/study/springbootdemo/config/MybatisPlusConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/top/study/springbootdemo/controller/StudentController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/top/study/springbootdemo/controller/TeacherController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/top/study/springbootdemo/entity/Student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/top/study/springbootdemo/entity/Teacher.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/top/study/springbootdemo/entity/vo/StudentTeacher.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/top/study/springbootdemo/entity/vo/TeacherStudent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/top/study/springbootdemo/mapper/StudentMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/top/study/springbootdemo/mapper/TeacherMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/top/study/springbootdemo/service/StudentService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/top/study/springbootdemo/service/TeacherService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/top/study/springbootdemo/service/impl/StudentServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/top/study/springbootdemo/service/impl/TeacherServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/top/study/springbootdemo/ResourceJava/Resource.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/top/study/springbootdemo/ResourceJava/ResourceController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/top/study/springbootdemo/SpringbootdemoApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/top/study/springbootdemo/activeMQApp/ActiveMQConsumer1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/top/study/springbootdemo/activeMQApp/ActiveMQConsumer2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/top/study/springbootdemo/activeMQApp/ActiveMQProducer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/top/study/springbootdemo/activeMQApp/CustomConnectionFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/top/study/springbootdemo/activeMQWeb/config/ActiveMQConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/top/study/springbootdemo/activeMQWeb/controller/ProducerController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/top/study/springbootdemo/activeMQWeb/controller/QueueConsumerListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/top/study/springbootdemo/activeMQWeb/controller/TopicConsumerListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/top/study/springbootdemo/applicationPublishEvent/Company.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/top/study/springbootdemo/applicationPublishEvent/PayOffController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/top/study/springbootdemo/applicationPublishEvent/PayOffEvent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/top/study/springbootdemo/applicationPublishEvent/PayOffEventPublisher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/top/study/springbootdemo/applicationPublishEvent/PayOffListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/top/study/springbootdemo/mybatisplus/config/MybatisPlusConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/top/study/springbootdemo/mybatisplus/controller/StudentController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/top/study/springbootdemo/mybatisplus/controller/TeacherController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/top/study/springbootdemo/mybatisplus/entity/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/top/study/springbootdemo/mybatisplus/entity/Teacher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/top/study/springbootdemo/mybatisplus/entity/vo/StudentTeacher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/top/study/springbootdemo/mybatisplus/entity/vo/TeacherStudent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/top/study/springbootdemo/mybatisplus/mapper/StudentMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/top/study/springbootdemo/mybatisplus/mapper/TeacherMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/top/study/springbootdemo/mybatisplus/service/StudentService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/top/study/springbootdemo/mybatisplus/service/TeacherService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/top/study/springbootdemo/mybatisplus/service/impl/StudentServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/top/study/springbootdemo/mybatisplus/service/impl/TeacherServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/top/study/springbootdemo/springApplicationRun/CustomizedBeanFactoryPostProcessor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/top/study/springbootdemo/springApplicationRun/CustomizedSpringApplicationRunListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/StudentMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/TeacherMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/rebel.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/resource.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/resource.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/jquery-3.3.1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/freemarker/index.ftl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/thymeleaf/TokenTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/thymeleaf/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/top/study/springbootdemo/SpringbootdemoApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/spring-configuration-metadata.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/springbootdemo.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/StudentMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/TeacherMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/rebel.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/resource.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/resource.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/jquery-3.3.1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/freemarker/index.ftl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/thymeleaf/TokenTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/thymeleaf/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/study/springbootdemo/ResourceJava/Resource.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/study/springbootdemo/ResourceJava/ResourceController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/study/springbootdemo/SpringbootdemoApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/study/springbootdemo/activeMQApp/ActiveMQConsumer1$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/study/springbootdemo/activeMQApp/ActiveMQConsumer1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/study/springbootdemo/activeMQApp/ActiveMQConsumer2$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/study/springbootdemo/activeMQApp/ActiveMQConsumer2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/study/springbootdemo/activeMQApp/ActiveMQProducer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/study/springbootdemo/activeMQApp/CustomConnectionFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/study/springbootdemo/activeMQWeb/config/ActiveMQConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/study/springbootdemo/activeMQWeb/controller/ProducerController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/study/springbootdemo/activeMQWeb/controller/QueueConsumerListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/study/springbootdemo/activeMQWeb/controller/TopicConsumerListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/study/springbootdemo/applicationPublishEvent/Company.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/study/springbootdemo/applicationPublishEvent/PayOffController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/study/springbootdemo/applicationPublishEvent/PayOffEvent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/study/springbootdemo/applicationPublishEvent/PayOffEventPublisher.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/study/springbootdemo/applicationPublishEvent/PayOffListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/study/springbootdemo/springApplicationRun/CustomizedBeanFactoryPostProcessor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/study/springbootdemo/springApplicationRun/CustomizedSpringApplicationRunListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/springbootdemo.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/top/study/springbootdemo/SpringbootdemoApplicationTests.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,9 +149,10 @@
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.idea" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -111,7 +163,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\IDEA_Project\springbootdemo\src\main\resources\static\js" />
+      <recent name="D:\IDEA_Project\springbootdemo\publish_event_app\src\main\java\top\study\publish_event_app" />
+      <recent name="D:\IDEA_Project\springbootdemo\mybatis_plus\src\main\resources" />
+      <recent name="D:\IDEA_Project\springbootdemo\mybatis_plus\src\main\java\top\study\mybatis_plus" />
+      <recent name="D:\IDEA_Project\springbootdemo\get_resources_properties\src\main\resources" />
+      <recent name="D:\IDEA_Project\springbootdemo\get_resources_properties\src\main\java\top\study\get_resources_properties" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\IDEA_Project\springbootdemo\src\main\resources\templates\thymeleaf" />
@@ -121,9 +177,9 @@
       <recent name="D:\IDEA_Project\springbootdemo\src\main\resources\xml" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.SpringbootdemoApplication">
-    <configuration name="ActiveMQConsumer1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="top.study.springbootdemo.activeMQApp.ActiveMQConsumer1" />
+  <component name="RunManager" selected="Spring Boot.MybatisPlusApplication">
+    <configuration name="ActiveMQConsumer2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="top.study.springbootdemo.activeMQApp.ActiveMQConsumer2" />
       <module name="springbootdemo" />
       <extension name="coverage">
         <pattern>
@@ -135,12 +191,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ActiveMQConsumer2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="top.study.springbootdemo.activeMQApp.ActiveMQConsumer2" />
-      <module name="springbootdemo" />
+    <configuration name="ActiveMQProducer (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="top.study.springbootdemo.activeMQApp.ActiveMQProducer" />
+      <module name="activeMQApp" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.travelsky.springbootdemo.activeMQApp.*" />
+          <option name="PATTERN" value="top.study.springbootdemo.activeMQApp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ActiveMQProducer (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="top.study.ActiveMQProducer" />
+      <module name="activeMQApp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="top.study.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -161,23 +230,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpringbootdemoApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="springbootdemo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.travelsky.springbootdemo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="top.study.springbootdemo" />
-      <option name="MAIN_CLASS_NAME" value="top.study.springbootdemo.SpringbootdemoApplicationTests" />
-      <option name="METHOD_NAME" value="" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="PARAMETERS" value="" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ActiveMQWebApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="springbootdemo" />
       <extension name="coverage">
@@ -191,6 +243,48 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ActiveMQWebApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true">
+      <module name="activemq_web" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="top.study.activemq_web.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="top.study.activemq_web.ActiveMQWebApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ActivemqWebApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="activemq_web" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="top.study.activemq_web.ActivemqWebApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GetResourcesPropertiesApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="get_resources_properties" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="top.study.get_resources_properties.GetResourcesPropertiesApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MybatisPlusApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="mybatis_plus" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="top.study.mybatis_plus.MybatisPlusApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PublishEventAppApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="publish_event_app" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="top.study.publish_event_app.PublishEventAppApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SpringbootdemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="springbootdemo" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="top.study.springbootdemo.SpringbootdemoApplication" />
@@ -200,20 +294,24 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.ActiveMQConsumer1" />
       <item itemvalue="Application.ActiveMQConsumer2" />
       <item itemvalue="Application.ActiveMQProducer" />
-      <item itemvalue="JUnit.SpringbootdemoApplicationTests" />
       <item itemvalue="Spring Boot.SpringbootdemoApplication" />
+      <item itemvalue="Spring Boot.MybatisPlusApplication" />
+      <item itemvalue="Spring Boot.PublishEventAppApplication" />
+      <item itemvalue="Spring Boot.ActivemqWebApplication" />
+      <item itemvalue="Spring Boot.GetResourcesPropertiesApplication" />
       <item itemvalue="Spring Boot.ActiveMQWebApplication" />
+      <item itemvalue="Application.ActiveMQProducer (1)" />
+      <item itemvalue="Application.ActiveMQProducer (2)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ActiveMQProducer (2)" />
+        <item itemvalue="Application.ActiveMQProducer (1)" />
+        <item itemvalue="Spring Boot.ActiveMQWebApplication" />
         <item itemvalue="Spring Boot.ActiveMQWebApplication" />
         <item itemvalue="Application.ActiveMQProducer" />
-        <item itemvalue="Application.ActiveMQConsumer2" />
-        <item itemvalue="Application.ActiveMQConsumer1" />
-        <item itemvalue="JUnit.SpringbootdemoApplicationTests" />
       </list>
     </recent_temporary>
   </component>
@@ -269,7 +367,9 @@
       <workItem from="1603952408506" duration="48000" />
       <workItem from="1604047673027" duration="662000" />
       <workItem from="1606377865869" duration="710000" />
-      <workItem from="1606457310006" duration="2767000" />
+      <workItem from="1606457310006" duration="3786000" />
+      <workItem from="1606727272129" duration="2351000" />
+      <workItem from="1606786567724" duration="11137000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1602844293036</created>
@@ -278,7 +378,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602844293036</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="init">
+      <created>1606466344937</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1606466344937</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -293,14 +400,22 @@
     <option name="LAST_COMMIT_MESSAGE" value="init" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="275" y="21" key="#Project_Settings" timestamp="1606792258103">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="21" key="#Project_Settings/0.0.1366.728@0.0.1366.728" timestamp="1606792258103" />
+    <state x="275" y="21" key="#SQL_Dialects" timestamp="1606793222571">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="21" key="#SQL_Dialects/0.0.1366.728@0.0.1366.728" timestamp="1606793222571" />
     <state x="421" y="216" key="#com.intellij.codeInsight.template.impl.EditVariableDialog" timestamp="1602840162069">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="421" y="216" key="#com.intellij.codeInsight.template.impl.EditVariableDialog/0.0.1366.728@0.0.1366.728" timestamp="1602840162069" />
-    <state x="169" y="36" width="1174" height="692" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602842435450">
+    <state x="106" y="30" width="1174" height="692" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606790018332">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="169" y="36" width="1174" height="692" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1602842435450" />
+    <state x="106" y="30" width="1174" height="692" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1606790018332" />
     <state x="488" y="72" key="#com.intellij.ide.util.MemberChooser" timestamp="1602657473142">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -321,86 +436,90 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="438" y="65" key="#xdebugger.evaluate/0.0.1366.728@0.0.1366.728" timestamp="1602655002864" />
-    <state x="275" y="0" key="CommitChangelistDialog2" timestamp="1603071610449">
+    <state x="413" y="187" width="539" height="357" key="AddEditExclusionDialog" timestamp="1606792257194">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1603071610449" />
-    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1602844204151">
+    <state x="413" y="187" width="539" height="357" key="AddEditExclusionDialog/0.0.1366.728@0.0.1366.728" timestamp="1606792257194" />
+    <state x="0" y="0" key="CommitChangelistDialog2" timestamp="1606466335733">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1602844204151" />
-    <state width="1322" height="139" key="GridCell.Tab.0.bottom" timestamp="1606458514763">
+    <state x="0" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1606466335733" />
+    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1606792246370">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="139" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1606458514763" />
-    <state width="1322" height="139" key="GridCell.Tab.0.center" timestamp="1606458514763">
+    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1606792246370" />
+    <state width="1322" height="156" key="GridCell.Tab.0.bottom" timestamp="1606803315567">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="139" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1606458514763" />
-    <state width="1322" height="139" key="GridCell.Tab.0.left" timestamp="1606458514763">
+    <state width="1322" height="156" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1606803315567" />
+    <state width="1322" height="156" key="GridCell.Tab.0.center" timestamp="1606803315567">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="139" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1606458514763" />
-    <state width="1322" height="139" key="GridCell.Tab.0.right" timestamp="1606458514763">
+    <state width="1322" height="156" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1606803315567" />
+    <state width="1322" height="156" key="GridCell.Tab.0.left" timestamp="1606803315567">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="139" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1606458514763" />
-    <state width="1322" height="139" key="GridCell.Tab.1.bottom" timestamp="1606458514764">
+    <state width="1322" height="156" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1606803315567" />
+    <state width="1322" height="156" key="GridCell.Tab.0.right" timestamp="1606803315567">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="139" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1606458514764" />
-    <state width="1322" height="139" key="GridCell.Tab.1.center" timestamp="1606458514764">
+    <state width="1322" height="156" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1606803315567" />
+    <state width="1322" height="156" key="GridCell.Tab.1.bottom" timestamp="1606803315567">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="139" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1606458514764" />
-    <state width="1322" height="139" key="GridCell.Tab.1.left" timestamp="1606458514764">
+    <state width="1322" height="156" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1606803315567" />
+    <state width="1322" height="156" key="GridCell.Tab.1.center" timestamp="1606803315567">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="139" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1606458514764" />
-    <state width="1322" height="139" key="GridCell.Tab.1.right" timestamp="1606458514764">
+    <state width="1322" height="156" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1606803315567" />
+    <state width="1322" height="156" key="GridCell.Tab.1.left" timestamp="1606803315567">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="139" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1606458514764" />
-    <state width="1322" height="107" key="GridCell.Tab.2.bottom" timestamp="1603101061951">
+    <state width="1322" height="156" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1606803315567" />
+    <state width="1322" height="156" key="GridCell.Tab.1.right" timestamp="1606803315567">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="107" key="GridCell.Tab.2.bottom/0.0.1366.728@0.0.1366.728" timestamp="1603101061951" />
-    <state width="1322" height="107" key="GridCell.Tab.2.center" timestamp="1603101061949">
+    <state width="1322" height="156" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1606803315567" />
+    <state width="1322" height="156" key="GridCell.Tab.2.bottom" timestamp="1606803315568">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="107" key="GridCell.Tab.2.center/0.0.1366.728@0.0.1366.728" timestamp="1603101061949" />
-    <state width="1322" height="107" key="GridCell.Tab.2.left" timestamp="1603101061949">
+    <state width="1322" height="156" key="GridCell.Tab.2.bottom/0.0.1366.728@0.0.1366.728" timestamp="1606803315568" />
+    <state width="1322" height="156" key="GridCell.Tab.2.center" timestamp="1606803315567">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="107" key="GridCell.Tab.2.left/0.0.1366.728@0.0.1366.728" timestamp="1603101061949" />
-    <state width="1322" height="107" key="GridCell.Tab.2.right" timestamp="1603101061950">
+    <state width="1322" height="156" key="GridCell.Tab.2.center/0.0.1366.728@0.0.1366.728" timestamp="1606803315567" />
+    <state width="1322" height="156" key="GridCell.Tab.2.left" timestamp="1606803315567">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="107" key="GridCell.Tab.2.right/0.0.1366.728@0.0.1366.728" timestamp="1603101061950" />
+    <state width="1322" height="156" key="GridCell.Tab.2.left/0.0.1366.728@0.0.1366.728" timestamp="1606803315567" />
+    <state width="1322" height="156" key="GridCell.Tab.2.right" timestamp="1606803315567">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="156" key="GridCell.Tab.2.right/0.0.1366.728@0.0.1366.728" timestamp="1606803315567" />
     <state x="213" y="18" key="Maven.ArtifactSearchDialog" timestamp="1602753508294">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="213" y="18" key="Maven.ArtifactSearchDialog/0.0.1366.728@0.0.1366.728" timestamp="1602753508294" />
-    <state x="206" y="0" key="SettingsEditor" timestamp="1606459943584">
+    <state x="206" y="0" key="SettingsEditor" timestamp="1606727695626">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="206" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1606459943584" />
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1602844564627">
+    <state x="206" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1606727695626" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1606466353029">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1602844564627" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1606466353029" />
     <state width="691" height="372" key="XDebugger.FullValuePopup" timestamp="1602654380874">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="691" height="372" key="XDebugger.FullValuePopup/0.0.1366.728@0.0.1366.728" timestamp="1602654380874" />
-    <state x="359" y="95" width="820" height="608" key="find.popup" timestamp="1603094462140">
+    <state x="359" y="95" width="820" height="608" key="find.popup" timestamp="1606788808072">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="359" y="95" width="820" height="608" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1603094462140" />
-    <state x="53" y="64" key="new project wizard" timestamp="1603089371726">
+    <state x="359" y="95" width="820" height="608" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1606788808072" />
+    <state x="77" y="36" key="new project wizard" timestamp="1606728209854">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="53" y="64" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1603089371726" />
+    <state x="77" y="36" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1606728209854" />
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1602659218342">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

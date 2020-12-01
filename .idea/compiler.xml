@@ -6,15 +6,30 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="springbootdemo" />
+        <module name="get_resources_properties" />
+        <module name="activeMQApp" />
+        <module name="mybatis_plus" />
+        <module name="activemq_web" />
+        <module name="publish_event_app" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="acivemq_web" target="1.5" />
+      <module name="activemq_web" target="1.8" />
+      <module name="activeMQApp" target="1.8" />
+      <module name="get_resources_properties" target="1.8" />
+      <module name="mybatis_plus" target="1.8" />
+      <module name="publish_event_app" target="1.8" />
       <module name="springbootdemo" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="activeMQApp" options="-parameters" />
+      <module name="activemq_web" options="-parameters" />
+      <module name="get_resources_properties" options="-parameters" />
+      <module name="mybatis_plus" options="-parameters" />
+      <module name="publish_event_app" options="-parameters" />
       <module name="springbootdemo" options="-parameters" />
     </option>
   </component>
