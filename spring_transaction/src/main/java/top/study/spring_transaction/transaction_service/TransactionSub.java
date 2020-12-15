@@ -11,10 +11,17 @@ import top.study.spring_transaction.mapper.StudentMapper;
 @Component
 public class TransactionSub {
 
-    private int i = 0;
 
     @Autowired
     StudentMapper studentMapper;
+
+    public void subNoError() {
+        System.out.println("subNoError");
+        Student student = new Student();
+        student.setStuName("小舞");
+        studentMapper.insert(student);
+        System.out.println("subNoError!");
+    }
 
 //    @Transactional(propagation = Propagation.REQUIRED, rollbackFor = Exception.class)
     public void sub() {
@@ -56,7 +63,24 @@ public class TransactionSub {
         } catch (RuntimeException e) {
             throw new RuntimeException();
         }
-        System.out.println("sub!");
+        System.out.println("sub3!");
     }
 
+    @Transactional(propagation = Propagation.REQUIRES_NEW)
+    public void sub5() {
+        System.out.println("sub5");
+        Student student = new Student();
+        student.setStuName("小舞");
+        studentMapper.insert(student);
+        System.out.println("sub5!");
+    }
+
+    @Transactional(propagation = Propagation.NOT_SUPPORTED)
+    public void sub6() {
+        System.out.println("sub6");
+        Student student = new Student();
+        student.setStuName("小舞");
+        studentMapper.insert(student);
+        System.out.println("sub6!");
+    }
 }
