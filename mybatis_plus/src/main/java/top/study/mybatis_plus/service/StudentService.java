@@ -16,9 +16,9 @@ import java.util.List;
  */
 public interface StudentService extends IService<Student> {
 
-    public List<Student> findAllStudent();
+    List<Student> findAllStudent();
 
-    public List<Student> findStudentTeacher(Integer teacId);
+    List<Student> findStudentTeacher(Integer teacId);
 
-    public List<StudentTeacher> findStudentTeacherByVO(Integer teacId);
+    List<StudentTeacher> findStudentTeacherByVO(Integer teacId);
 }

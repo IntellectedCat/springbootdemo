@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="top.study.spring_transaction.mapper.TeacherMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="top.study.spring_transaction.entity.Teacher">
+        <id column="teac_id" property="teacId" />
+        <result column="teac_name" property="teacName" />
+    </resultMap>
+    
+    <resultMap id="CollectionSelect" type="top.study.spring_transaction.entity.vo.TeacherStudent">
+        <id column="teac_id" property="teacId"/>
+        <result column="teac_name" property="teacName"/>
+        <collection property="studentList" ofType="top.study.spring_transaction.entity.Student" javaType="java.util.ArrayList" >
+            <id column="stu_id" property="stuId"/>
+            <result column="stu_name" property="stuName"/>
+        </collection>
+    </resultMap>
+
+    <select id="findTeacherStudentVO" resultMap="CollectionSelect">
+        select tc.teac_id, tc.teac_name, td.stu_id, td.stu_name
+        from t_teacher tc
+        left join t_student td on td.teac_id = tc.teac_id
+        where tc.teac_id = #{teacId}
+    </select>
+
+</mapper>

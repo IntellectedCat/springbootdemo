@@ -1,4 +1,4 @@
-package top.study.mybatis_plus.entity;
+package top.study.spring_transaction.entity;
 
 import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.annotation.TableId;
